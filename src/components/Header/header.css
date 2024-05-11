@@ -1,0 +1,53 @@
+.menu{
+    display:flex;
+    height: 200px;
+
+}
+
+.ancla-menu{
+    cursor: pointer;
+    text-decoration: none;
+    color: white;
+    padding: 0 10px;
+    font-size: 20px;
+    position: relative;
+    margin: 6px 20px;
+    padding-bottom: 3px;
+}
+
+.ancla-menu:hover {
+    color: #a072f9;
+} 
+
+.ancla-menu::before {
+    content: ''; 
+    position: absolute; 
+    bottom: 0; 
+    left: 0;
+    width: 0; 
+    height: 2px; 
+    background-color: #a072f9; 
+    transition: width 0.4s ease; 
+}
+.ancla-menu:hover::before {
+    width: 100%; 
+}
+
+
+ul{
+    list-style: none;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    margin:10px;
+}
+
+li{
+    color: grey;
+    justify-content: center;
+}
+
+li:hover{
+    transform: scale(1.1);
+    }

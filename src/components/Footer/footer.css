@@ -1,0 +1,22 @@
+.menu-footer {
+    height: 50px;
+    border-bottom: solid 1px white;
+    padding-bottom: 10px;
+}
+
+.leyenda {
+    text-align: center;
+    font-size: 14px;
+    color: white;
+    margin-top: 10px;
+}
+
+.icons {
+    color: white;
+    font-size: 25px;
+    padding-right: 40px;
+}
+
+.icons:hover {
+    color: #a072f9;
+}
